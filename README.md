@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# To Do App using React & Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple To-Do application built using ReactJS with Redux for state management. Users can add tasks, mark them as completed, and delete them.
+
+##Features
+Add tasks: Users can input a task into a text field and add it to the list.
+View tasks: All added tasks are displayed in a list format.
+Mark tasks as completed: Users can mark tasks as completed without deleting them.
+Delete tasks: Each task has a delete button to remove it from the list.
 
 ## Available Scripts
 

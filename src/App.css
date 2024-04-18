@@ -36,11 +36,38 @@
 .items-center {
     align-items: center;
 }
+.p-10 {
+    padding: 10px;
+}
 .p-l {
     padding-left: 20px;
 }
 .p-t {
     padding-top: 20px;
+}
+.p-l-10 {
+    padding-left: 10%;
+}
+.p-r-10 {
+    padding-right: 10%;
+}
+.m-t {
+    margin-top: 20px;
+}
+.m-t40 {
+    margin-top: 40px;
+}
+.m-t10 {
+    margin-top: 10px;
+} 
+.m-r10 {
+    margin-right: 10px;
+}
+.m-l10 {
+    margin-left: 10px;
+}
+.m-b {
+    margin-bottom: 20px;
 }
 .p-t10 {
     padding-top: 10px;
@@ -52,7 +79,7 @@
     padding-left: 10px;
 }
 .text {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .text1 {
     font-size: 2.5rem;
@@ -72,6 +99,9 @@
 .text-primary-color {
     color: #fafafa;
 }
+.text-secondary-color {
+    color: #d1d5db;
+}
 .strike {
     text-decoration: line-through;
 }
@@ -80,6 +110,9 @@
 }
 .bold {
     font-weight: bold;
+}
+.weight-600 {
+    font-weight: 600;
 }
 .text-center {
     text-align: center;
@@ -111,20 +144,61 @@
 .cursor {
     cursor: pointer;
 }
-
-.App {
-    text-align: center;
-}
-  
-.Taskinput {
-    margin-bottom: 20px;
-}
-  
-.TaskList {
+.text-align-left {
     text-align: left;
 }
-  
 button {
     margin-left: 5px;
 }
-  
+.main{
+    background-color: #083344;
+}
+.back-black {
+    background-color: #0a0a0a;
+}
+.back-orange {
+    background-color: orange;
+}
+.back-red {
+    background-color: #be123c;
+}
+.input {
+    border-bottom: 1px solid #fafafa;
+    width: 70%;
+    padding: 5px;
+}
+.border-5 {
+    border-radius: 5px;
+}
+.width-40 {
+    width: 40vw;
+}
+.todoDel {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.todo-form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.width-10 {
+    width: 10%;
+}
+.labels {
+    margin: 5px;
+    width: 80%;
+}
+.inpCheck {
+    margin: 5px;
+    height: 20px;
+}
+.width-80 {
+    width: 80%;
+}
+.back-292524{
+    background-color: #292524;
+}    
+.tasklistcontainer {
+    margin-right: 10%;
+    margin-bottom: 5px;
+}

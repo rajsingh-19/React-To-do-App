@@ -7,13 +7,13 @@ const TaskList = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className="TaskList">
-      <h2>Tasks:</h2>
+    <div className="p-l-10 p-r-10">
       <ul>
         {tasks.map((task, index) => (
-          <li key={index}>
-            {task}
-            <button onClick={() => dispatch(deleteTask(index))}>Delete</button>
+    <li className='back-292524 flex dir-row justify-center m-b' key={index}>
+            <input type="checkbox" className='width-10 text2 inpCheck' />
+            <label className='labels text-primary-color width-80 text2'>{task}</label>
+            <button className="cursor text2 border-5 back-red width-10 text-primary-color" onClick={() => dispatch(deleteTask(index))}>Del</button>
           </li>
         ))}
       </ul>

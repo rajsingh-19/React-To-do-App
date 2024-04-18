@@ -18,17 +18,19 @@ const Taskinput = () => {
   };
 
   return (
-    <div className="Taskinput">
-      <input
+    <div className="todo-form">
+      <input className='border-none outline-none border-5 input bg-transparent text-primary-color text-center m-r10 text3'
         type="text"
-        placeholder="Enter task"
+        placeholder="Enter task here..."
         value={taskText}
         onChange={handleChange}
         onKeyDown={(e) => {
-          if (e.key === 'Enter') handleSubmit();
+          if (e.key === 'Enter') {
+            handleSubmit();
+          }
         }}
       />
-      <button onClick={handleSubmit}>Add Task</button>
+      <button className="text2 text-primary-color width-10 back-orange cursor border-5" onClick={handleSubmit}>Add</button>
     </div>
   );
 };

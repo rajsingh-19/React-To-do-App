@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.link {
+    text-decoration: none;
+}
+.list-style-none {
+    list-style-type: none;
+}
+.shadow {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.d-block {
+    display: block;
+}
+.sticky {
+    position: sticky;
+}
+.top-0 {
+    top: 0;
+}
+.flex {
+    display: flex;
+}
+.dir-row {
+    flex-direction: row;
+}
+.dir-col {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.p-l {
+    padding-left: 20px;
+}
+.p-t {
+    padding-top: 20px;
+}
+.p-t10 {
+    padding-top: 10px;
+}
+.p-r10 {
+    padding-right: 10px;
+}
+.p-l10 {
+    padding-left: 10px;
+}
+.text {
+    font-size: 3rem;
+}
+.text1 {
+    font-size: 2.5rem;
+}
+.text2 {
+    font-size: 2rem;
+}
+.text3 {
+    font-size: 1.5rem;
+}
+.text4 {
+    font-size: 1rem;
+}
+.text5 {
+    font-size: .75rem;
+}
+.text-primary-color {
+    color: #fafafa;
+}
+.strike {
+    text-decoration: line-through;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+.text-center {
+    text-align: center;
+}
+.border-none {
+    border: none;
+}
+.outline-none {
+    outline: none;
+}
+.bg-transparent {
+    background-color: transparent;
+}
+.hide {
+    display: none;
+}
+.float-r {
+    float: right;
+}
+.float-l {
+    float: left;
+}
+.v-visibility {
+    visibility: visible;
+}
+.h-visibility {
+    visibility: hidden;
+}
+.cursor {
+    cursor: pointer;
+}
+
+.App {
+    text-align: center;
+}
+  
+.Taskinput {
+    margin-bottom: 20px;
+}
+  
+.TaskList {
+    text-align: left;
+}
+  
+button {
+    margin-left: 5px;
+}
+  

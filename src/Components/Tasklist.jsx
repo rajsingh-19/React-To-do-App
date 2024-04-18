@@ -3,7 +3,9 @@ import { useSelector, useDispatch } from 'react-redux';
 import { deleteTask } from "../redux/action";
 
 const TaskList = () => {
+  // using useSelector for getting the tasks entered by the user 
   const tasks = useSelector((state) => state.tasks);
+  // using useDispatch for adding, updating and managing the states
   const dispatch = useDispatch();
 
   return (

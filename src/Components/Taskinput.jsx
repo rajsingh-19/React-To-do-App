@@ -3,16 +3,22 @@ import { useDispatch } from 'react-redux';
 import { addTask } from "../redux/action";
 
 const Taskinput = () => {
+  // useState for manage the value of task input
   const [taskText, setTaskText] = useState('');
+  // using useDispatch for adding, updating and managing the states
   const dispatch = useDispatch();
-
+  
+  // function for handling the task input  
   const handleChange = (e) => {
     setTaskText(e.target.value);
   };
-
+  
+  // function for handling the task addition while enter button is pressed
   const handleSubmit = () => {
     if (taskText.trim() !== '') {
+      // adding task to the add task dispatch
       dispatch(addTask(taskText));
+      // clearing the input for user to write the task again and again
       setTaskText('');
     }
   };

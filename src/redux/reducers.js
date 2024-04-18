@@ -1,7 +1,7 @@
 const initialState = {
     tasks: [],
 };
-  
+// function for updating the states 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
       case 'ADD_TASK':

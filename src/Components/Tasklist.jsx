@@ -13,7 +13,7 @@ const TaskList = () => {
       <ul>
         {tasks.map((task, index) => (
     <li className='back-292524 flex dir-row justify-center m-b' key={index}>
-            <input type="checkbox" className='width-10 text2 inpCheck' />
+            <input type="checkbox" className='width-10 text2 inpCheck cursor' />
             <label className='labels text-primary-color width-80 text2'>{task}</label>
             <button className="cursor text2 border-5 back-red width-10 text-primary-color" onClick={() => dispatch(deleteTask(index))}>Del</button>
           </li>

@@ -8,7 +8,7 @@ import "./App.css";
 
 function App() {
   return (
-    // using provider with store attribute so that all the state can be fetched anywhere in the application
+    // using provider with store attribute for wrapping the application so that all the state can be fetched anywhere in the application
     <Provider store={store}>
       <div className="text-center main">
         <header className="text text-secondary-color bold italic weight-600 p-t">To Do App</header>
